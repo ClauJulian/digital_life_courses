@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../css/styles.css">
+    <title>Digital Life</title>
+</head>
+<body>
+    <header>       
+        <nav >
+            <div class="cej_logo">LOGO</div>
+            <div class="cej_menu">
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="">Contact</a></p>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="form_section">
+            <form action="" method="post">
+                <fieldset>
+                    <p class="subtitulo_form">DATOS PERSONALES</p>
+                    <div class="data_form">
+                        <input type="text" name="name" value="" placeholder="name" />
+                        <input type="text" name="surname" value="" placeholder="surname" />
+                        <input type="number" name="dni" value="" placeholder="d.n.i" />
+                    </div>
+                    <div class="data_form">
+                        <input type="email" name="email" value="" placeholder="example@email.com" class="email_input"/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <p class="subtitulo_form">CONOCIMIENTO IT</p>
+                    <div class="data_form">
+                        <p>Tiene conocimiento en programación?:</p>
+                        <div class="radio_form">
+                            <div>
+                                <input type="radio" name="it_background" value="yes"  />
+                                <label for="yes">Sí</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="it_background" value="no"  />
+                                <label for="no">No</label>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="data_form">
+                        <p>Herramientas que maneja:</p>
+                        <div class="checkbox_form">
+                            <div>
+                                <input type="checkbox" name="herramientas[]" value="php"/>
+                                <label for="php">PHP</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="herramientas[]" value="python"/>
+                                <label for="python">PYTHON</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="herramientas[]" value="javascript"/>
+                                <label for="javascript">JS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="herramientas[]" value="react"/>
+                                <label for="react">REACT</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="herramientas[]" value="angular"/>
+                                <label for="angular">ANGULAR</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <p class="subtitulo_form"class="subtitulo_form">CURSO SELECCIONADO</p>
+                    <div class="data_form">
+                        <label for="curso">Curso:</label>
+                        <select type="" name="curso">
+                            <option name="curso" disabled selected>seleccionar</option>
+                            <option name="curso" value="php">Full Stack PHP</option>
+                            <option name="curso" value="python">Bootstrap</option>
+                            <option name="curso" value="react">React</option>
+                            <option name="curso" value="java">Full Stack Java</option>
+                            <option name="curso" value="python">CSS</option>
+                            <option name="curso" value="python">HTML</option>
+                        </select>
+                    </div>
+                    <div class="data_form">
+                        <label for="turno">Turno:</label>
+                        <select type="" name="turno">
+                            <option name="turno" disabled selected>seleccionar</option>
+                            <option name="turno" value="mañana">Mañana</option>
+                            <option name="turno" value="tarde">Tarde</option>
+                            <option name="turno" value="noche">Noche</option>                            
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="box_btn_form">
+                    <button type="submit" class="btn_form">ENVIAR</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>
+    <div>
+        <ul>
+            <p>HTML - CSS</p>
+            <p>JAVA</p>        
+        </ul></div>
+    <div>
+        <ul>
+            <p>Claudia E. Julian</p>
+            <p>Full Stack PHP</p>
+            <p>Full Stack JAVA</p>
+            <P>REACT</P>
+            
+            
+        </ul></div>
+    <div>
+        <ul>
+            <p>GitHub: claujulian</p>
+            <p>Linkedin: </p>
+            <p>claudia_e_julian@yahoo.com.ar</p>
+        </ul></div>
+</footer>
+</html>
